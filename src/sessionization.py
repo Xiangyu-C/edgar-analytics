@@ -55,7 +55,7 @@ def edgar_analysis(f1, f2, f3):
                                   access_data[key]['doc_count'])
                     del access_data[key]
 
-        def initiate_dict(ip):
+        def initiate_dict(ip_address):
             """
             Initiate key values in the dictionary
             """
